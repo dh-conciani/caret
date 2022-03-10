@@ -1,5 +1,5 @@
 modelInfo <- list(label = "eXtreme Gradient Boosting",
-                  library = c("xgboost", "plyr"),
+                  library = c("xgboost", "plyr", "dplyr"),
                   type = c("Regression", "Classification"),
                   parameters = data.frame(parameter = c('nrounds', 'max_depth', 'eta',
                                                         'gamma', 'colsample_bytree',
